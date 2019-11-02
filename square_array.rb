@@ -6,6 +6,7 @@
 
 
 def square_array(array)
+  
   array.each{|arr| print Math.sqrt(arr)}
  end
  
