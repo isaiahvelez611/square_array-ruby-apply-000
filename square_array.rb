@@ -7,8 +7,10 @@
 
 def square_array(array)
   arr = []
-    array.each{ |a| arr }
- end
+    array.each{ |a| arr << a ** 3 }
+      arr
+end
+ 
  
  def square_array(array)
   arr = []
