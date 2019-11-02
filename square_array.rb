@@ -6,8 +6,8 @@
 
 
 def square_array(array)
-  
-  array.each{|arr| print Math.sqrt(arr)}
+  new_array = []
+    array.each{|arr| print Math.sqrt(arr)}
  end
  
  # new_array = []
