@@ -6,9 +6,18 @@
 
 
 def square_array(array)
-  new_array = []
-    array.each{|arr| print Math.sqrt(arr)}
+  arr = []
+    array.each{ |a| arr }
  end
+ 
+ def square_array(array)
+  arr = []
+  array.each { |i| arr << i ** 2 }
+  arr
+end
+
+my_arr = [1, 2]
+p square_array(my_arr)
  
  # new_array = []
 #   array.each {|i| array << i ** 2 }
